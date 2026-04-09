@@ -127,7 +127,7 @@ class _FontLibraryScreenState extends State<FontLibraryScreen> {
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            Icon(Icons.font_download, size: 72, color: RetroTheme.pixel.withOpacity(0.3)),
+                            Icon(Icons.font_download, size: 72, color: RetroTheme.pixel.withValues(alpha: 0.3)),
                             const SizedBox(height: 20),
                             const Text('No fonts yet', style: TextStyle(color: RetroTheme.textSecondary, fontSize: 20)),
                             const SizedBox(height: 24),
@@ -238,7 +238,7 @@ class _Chip extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-      decoration: BoxDecoration(color: color.withOpacity(0.1), borderRadius: BorderRadius.circular(3)),
+      decoration: BoxDecoration(color: color.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(3)),
       child: Text(text, style: TextStyle(color: color, fontSize: 10)),
     );
   }
@@ -291,7 +291,7 @@ class _CreateFontDialogState extends State<_CreateFontDialog> {
                 label: Text('${t.label} (${t.defaultWidth}x${t.defaultHeight})'),
                 selected: selected,
                 onSelected: (_) => setState(() => _template = t),
-                selectedColor: RetroTheme.pixel.withOpacity(0.2),
+                selectedColor: RetroTheme.pixel.withValues(alpha: 0.2),
                 labelStyle: TextStyle(
                   color: selected ? RetroTheme.pixel : RetroTheme.textPrimary,
                   fontSize: 12,

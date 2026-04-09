@@ -41,7 +41,7 @@ class _FontEditorScreenState extends State<FontEditorScreen> {
         SnackBar(
           content: Text('Saved "${_font.name}"'),
           duration: const Duration(seconds: 1),
-          backgroundColor: RetroTheme.pixel.withOpacity(0.8),
+          backgroundColor: RetroTheme.pixel.withValues(alpha: 0.8),
         ),
       );
     }
@@ -148,10 +148,10 @@ class _FontEditorScreenState extends State<FontEditorScreen> {
                           child: Container(
                             decoration: BoxDecoration(
                               color: isSelected
-                                  ? RetroTheme.pixel.withOpacity(0.2)
+                                  ? RetroTheme.pixel.withValues(alpha: 0.2)
                                   : hasContent
                                       ? RetroTheme.surfaceLight
-                                      : RetroTheme.background.withOpacity(0.5),
+                                      : RetroTheme.background.withValues(alpha: 0.5),
                               borderRadius: BorderRadius.circular(2),
                               border: isSelected
                                   ? Border.all(color: RetroTheme.pixel, width: 1)
@@ -165,7 +165,7 @@ class _FontEditorScreenState extends State<FontEditorScreen> {
                                     child: Text(
                                       char == ' ' ? '·' : char,
                                       style: TextStyle(
-                                        color: isSelected ? RetroTheme.pixel : RetroTheme.textSecondary.withOpacity(0.4),
+                                        color: isSelected ? RetroTheme.pixel : RetroTheme.textSecondary.withValues(alpha: 0.4),
                                         fontSize: 9,
                                         fontFamily: 'monospace',
                                       ),
@@ -326,7 +326,7 @@ class _MiniGlyphPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final cellW = size.width / glyph.width;
     final cellH = size.height / glyph.height;
-    final paint = Paint()..color = RetroTheme.pixel.withOpacity(0.8);
+    final paint = Paint()..color = RetroTheme.pixel.withValues(alpha: 0.8);
 
     for (int y = 0; y < glyph.height; y++) {
       for (int x = 0; x < glyph.width; x++) {

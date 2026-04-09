@@ -185,14 +185,14 @@ class _ToolBtn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final color = !enabled
-        ? RetroTheme.textSecondary.withOpacity(0.3)
+        ? RetroTheme.textSecondary.withValues(alpha: 0.3)
         : active
             ? RetroTheme.pixel
             : RetroTheme.textSecondary;
     return Tooltip(
       message: label,
       child: Material(
-        color: active ? RetroTheme.pixel.withOpacity(0.15) : Colors.transparent,
+        color: active ? RetroTheme.pixel.withValues(alpha: 0.15) : Colors.transparent,
         borderRadius: BorderRadius.circular(4),
         child: InkWell(
           onTap: enabled ? onTap : null,
