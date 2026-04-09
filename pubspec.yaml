@@ -1,4 +1,4 @@
-name: retrotype
+name: open_glyph
 description: "Pixel art font editor — create bitmap fonts with retro templates"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

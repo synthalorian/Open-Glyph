@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:retrotype/models/pixel_font.dart';
+import 'package:open_glyph/models/pixel_font.dart';
 
 void main() {
   test('GlyphData pixel operations', () {
