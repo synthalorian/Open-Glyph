@@ -1,26 +1,24 @@
-# RetroType
+# Open Glyph
 
-Pixel art font editor — create bitmap fonts with retro templates.
+Pixel art font editor — create bitmap fonts with retro templates. Built with Flutter.
 
-## What is RetroType?
+## Features
 
-A dedicated editor for creating bitmap/pixel fonts with live preview, kerning tools, and export to common formats. Built-in templates for retro styles (C64, NES, DOS, arcade) with preview in mock game UIs.
-
-## Features (Planned)
-
-- **Pixel grid editor** — draw glyphs pixel-by-pixel with draw/erase tools
-- **Character map** — full ASCII charset with visual glyph browser
-- **Live preview** — see your font rendered in real-time as you edit
-- **Retro templates** — C64, NES, DOS/VGA, arcade, tiny 5x5, wide 16x16
-- **Export** — TTF/OTF, BMFont, spritesheet PNG
-- **Kerning editor** — adjust spacing between character pairs
-- **Game UI preview** — see your font in mock RPG dialogs, HUDs, menus
+- Pixel grid editor — draw glyphs pixel-by-pixel with draw/erase tools
+- Character map — full ASCII charset with visual glyph browser
+- Live preview — see your font rendered in real-time as you edit
+- Retro templates — C64, NES, DOS/VGA, arcade, tiny 5x5, wide 16x16
+- Export — BMFont text format (clipboard)
+- Undo/redo — full history stack per editing session
+- Glyph tools — shift, mirror, invert, fill, clear, copy/paste
+- Font settings — spacing, line height, baseline, per-glyph advance/offset
+- Keyboard shortcuts — Ctrl+S to save, [ ] to navigate glyphs
 
 ## Tech Stack
 
-- **Flutter** (cross-platform: desktop, mobile, web)
-- **Custom pixel grid canvas** for the editor
-- **Dart** for font data models and export logic
+- **Flutter** — cross-platform (desktop, mobile, web)
+- **Custom pixel grid canvas** — CustomPainter-based editor
+- **Dart** — font data models and BMFont export
 
 ## Getting Started
 
@@ -28,6 +26,10 @@ A dedicated editor for creating bitmap/pixel fonts with live preview, kerning to
 flutter pub get
 flutter run
 ```
+
+## Platforms
+
+Linux, Android, iOS, macOS, Web, Windows.
 
 ## License
 

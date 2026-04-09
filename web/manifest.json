@@ -1,11 +1,11 @@
 {
-    "name": "retrotype",
-    "short_name": "retrotype",
+    "name": "Open Glyph",
+    "short_name": "Open Glyph",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Pixel art font editor — create bitmap fonts with retro templates",
+    "background_color": "#1B1B2F",
+    "theme_color": "#44FF44",
+    "description": "Pixel art font editor — create bitmap fonts with retro templates.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

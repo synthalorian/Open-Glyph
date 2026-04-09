@@ -58,7 +58,7 @@ class _FontEditorScreenState extends State<FontEditorScreen> {
   }
 
   void _navigateChar(int delta) {
-    final charset = PixelFont.defaultCharset;
+    const charset = PixelFont.defaultCharset;
     final idx = charset.indexOf(_selectedChar);
     if (idx < 0) return;
     final newIdx = (idx + delta).clamp(0, charset.length - 1);
@@ -427,7 +427,7 @@ class _SettingsPanel extends StatelessWidget {
           const _Label('INFO'),
           const SizedBox(height: 8),
           _InfoRow('Glyph Size', '${font.glyphWidth} x ${font.glyphHeight}'),
-          _InfoRow('Charset', '${PixelFont.defaultCharset.length} chars'),
+          const _InfoRow('Charset', '95 chars'),
           _InfoRow('Defined', '${font.definedGlyphCount} glyphs'),
         ],
       ),
