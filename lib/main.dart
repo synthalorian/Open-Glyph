@@ -12,7 +12,7 @@ class RetroTypeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'RetroType',
+      title: 'Open Glyph',
       debugShowCheckedModeBanner: false,
       theme: RetroTheme.darkTheme,
       home: const FontLibraryScreen(),
