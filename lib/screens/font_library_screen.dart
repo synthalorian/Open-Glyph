@@ -98,7 +98,7 @@ class _FontLibraryScreenState extends State<FontLibraryScreen> {
                 const Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('RETROTYPE',
+                    Text('OPEN GLYPH',
                         style: TextStyle(color: RetroTheme.pixel, fontSize: 22,
                             fontWeight: FontWeight.bold, letterSpacing: 4)),
                     Text('Pixel Art Font Editor',

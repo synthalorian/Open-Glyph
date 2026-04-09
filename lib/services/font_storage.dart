@@ -6,7 +6,7 @@ import '../models/pixel_font.dart';
 class FontStorage {
   static String get _basePath {
     final home = Platform.environment['HOME'] ?? '.';
-    return p.join(home, '.retrotype', 'fonts');
+    return p.join(home, '.open-glyph', 'fonts');
   }
 
   static Future<void> _ensureDir() async {
@@ -24,10 +24,15 @@ class FontStorage {
   }
 
   static Future<PixelFont?> load(String id) async {
-    final file = File(_filePath(id));
-    if (!await file.exists()) return null;
-    final json = jsonDecode(await file.readAsString()) as Map<String, dynamic>;
-    return PixelFont.fromJson(json);
+    try {
+      final file = File(_filePath(id));
+      if (!await file.exists()) return null;
+      final json =
+          jsonDecode(await file.readAsString()) as Map<String, dynamic>;
+      return PixelFont.fromJson(json);
+    } catch (_) {
+      return null;
+    }
   }
 
   static Future<List<FontSummary>> listFonts() async {

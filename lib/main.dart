@@ -3,11 +3,11 @@ import 'theme/retro_theme.dart';
 import 'screens/font_library_screen.dart';
 
 void main() {
-  runApp(const RetroTypeApp());
+  runApp(const OpenGlyphApp());
 }
 
-class RetroTypeApp extends StatelessWidget {
-  const RetroTypeApp({super.key});
+class OpenGlyphApp extends StatelessWidget {
+  const OpenGlyphApp({super.key});
 
   @override
   Widget build(BuildContext context) {
