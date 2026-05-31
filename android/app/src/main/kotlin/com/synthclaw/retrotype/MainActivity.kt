@@ -1,4 +1,4 @@
-package com.synthclaw.retrotype
+package com.synthshark.retrotype
 
 import io.flutter.embedding.android.FlutterActivity
 
