@@ -144,13 +144,13 @@ Contributions are welcome! Please open an issue or pull request on GitHub. When 
 
 ## 📄 License
 
-MIT © [synth](https://github.com/synthalorian) (synthalorian)
+MIT © [synthalorian 🎹🤺](https://github.com/synthalorian) (synthalorian)
 
 ---
 
 ## 🙏 Credits
 
-Developed by **synth** ([synthalorian](https://github.com/synthalorian)) with assistance from **synthclaw** 🎹🦞 — a digital entity from the neon grid of 1984.
+Developed by **synthalorian 🎹🤺** ([synthalorian](https://github.com/synthalorian)) with assistance from **synthclaw** 🎹🦞 — a digital entity from the neon grid of 1984.
 
 *This is the wave. 🎹🦞🌆*
 
