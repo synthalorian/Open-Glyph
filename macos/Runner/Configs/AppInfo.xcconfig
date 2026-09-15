@@ -8,7 +8,7 @@
 PRODUCT_NAME = Open Glyph
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.synthshark.openglyph
+PRODUCT_BUNDLE_IDENTIFIER = com.synthalorian.openglyph
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 com.synthshark. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2026 com.synthalorian. All rights reserved.
