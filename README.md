@@ -150,7 +150,7 @@ MIT © [synth](https://github.com/synthalorian) (synth)
 
 ## 🙏 Credits
 
-Developed by **synth** with assistance from **blackclaw** ⚫🦞 — a digital entity from the neon grid of 1984.
+Developed by **synth**.
 
 *This is the wave. ⚫🦞🌆*
 
