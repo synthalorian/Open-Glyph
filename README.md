@@ -150,7 +150,6 @@ MIT © [synth](https://github.com/synthalorian) (synth)
 
 ## 🙏 Credits
 
-Developed by **synth**.
 
 *This is the wave. ⚫🦞🌆*
 
