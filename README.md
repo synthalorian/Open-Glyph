@@ -1,3 +1,5 @@
+![Open-Glyph](.github/preview.png)
+
 # Open Glyph
 
 <p align="center">
