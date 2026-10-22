@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.4%2B-blue?logo=flutter" alt="Flutter 3.4+">
   <img src="https://img.shields.io/badge/Dart-3.4%2B-0175C2?logo=dart" alt="Dart 3.4+">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License MIT">
+  <img src="https://img.shields.io/badge/License-Apache--2.0-green" alt="License Apache-2.0">
   <img src="https://img.shields.io/badge/Platforms-Linux%20%7C%20Android%20%7C%20iOS%20%7C%20macOS%20%7C%20Web%20%7C%20Windows-lightgrey" alt="Platforms">
 </p>
 
@@ -146,7 +146,7 @@ Contributions are welcome! Please open an issue or pull request on GitHub. When 
 
 ## 📄 License
 
-MIT © [synth](https://github.com/synthalorian) (synth)
+Apache-2.0, see [LICENSE](LICENSE). © [synth](https://github.com/synthalorian) (synth)
 
 ---
 
